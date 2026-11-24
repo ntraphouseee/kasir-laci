@@ -3,12 +3,27 @@
 > **Lightweight, 100% Offline-First Point of Sale (POS) & Inventory Mobile System for Indonesian MSMEs.**  
 > Engineered with Flutter, native SQLite ACID transactions, Bluetooth ESC/POS thermal printing, and zero cloud server dependencies.
 
+[![Download APK](https://img.shields.io/badge/Download-Release%20APK%20(v1.0.0)-2ea44f?logo=android&logoColor=white)](https://github.com/ntraphouseee/kasir-laci/releases/latest)
 [![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
 [![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart&logoColor=white)](https://dart.dev)
 [![SQLite](https://img.shields.io/badge/Database-SQLite%203-003B57?logo=sqlite&logoColor=white)](https://www.sqlite.org)
 [![Android](https://img.shields.io/badge/Platform-Android%20API%2023+-3DDC84?logo=android&logoColor=white)](https://android.com)
 [![Tests](https://img.shields.io/badge/Tests-13%2F13%20Passing%20(100%25)-brightgreen)]()
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)]()
+
+---
+
+## 📥 Direct APK Download
+
+Siap pakai tanpa biaya langganan cloud dan tanpa perlu Google Play Store. Pilih file APK sesuai arsitektur perangkat Anda:
+
+| Package Variant | Binary Size | Architecture / Device Compatibility | Direct Download Link |
+| :--- | :--- | :--- | :--- |
+| **Kasir Laci (ARM64)** *(Recommended)* | **~26.5 MB** | Modern 64-bit Android smartphones & tablets (95%+ device) | [Download ARM64 APK](https://github.com/ntraphouseee/kasir-laci/releases/download/v1.0.0/Kasir-Laci-v1.0.0-arm64.apk) |
+| **Kasir Laci (ARMv7)** | **~22.5 MB** | Legacy 32-bit budget Android devices | [Download ARMv7 APK](https://github.com/ntraphouseee/kasir-laci/releases/download/v1.0.0/Kasir-Laci-v1.0.0-armeabi-v7a.apk) |
+| **Kasir Laci (Universal)** | **~70.8 MB** | Multi-ABI Fat binary (semua jenis CPU / Emulator) | [Download Universal APK](https://github.com/ntraphouseee/kasir-laci/releases/download/v1.0.0/Kasir-Laci-v1.0.0-universal.apk) |
+
+> 💡 **Cara Install:** Download APK di atas langsung dari smartphone Android Anda, buka file APK, lalu pilih **Install** (izinkan *Install from unknown sources* pada browser/file manager jika diminta).
 
 ---
 
@@ -182,8 +197,8 @@ flutter analyze
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/ntraphouseee/kasir_umkm_offline.git
-   cd kasir_umkm_offline
+   git clone https://github.com/ntraphouseee/kasir-laci.git
+   cd kasir-laci
    ```
 
 2. **Install dependencies:**
